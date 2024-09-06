@@ -394,3 +394,239 @@ footer{
         width: 100%;
     }
 }
+
+/*Comments section*/
+
+.comments-section {
+    background-color: #191919;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+
+.comments-section .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comments-section .title-description {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.comments-section .comments-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: #F9EAAD;
+}
+
+.comments-section .comments-description {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.comments-section .comments-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.comments-section .comment-box {
+    background-color: #FFFFFF;
+    color: #0B132A;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-right: 20px; 
+}
+
+.comments-section .author-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comments-section .author-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.comments-section .author-text {
+    flex-grow: 1;
+}
+
+.comments-section .author-name {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #0B132A;
+}
+
+.comments-section .author-location {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #4F5665;
+}
+
+.comments-section .rating {
+    font-family: 'Rubik', sans-serif;
+    color: #0B132A;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: auto;
+}
+
+.comments-section .comment-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.comments-section .pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.comments-section .pagination-dots {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.comments-section .arrows {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.comments-section .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #256D72;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.comments-section .arrow {
+    cursor: pointer;
+    font-size: 24px;
+    user-select: none;
+}
+
+.comments-section {
+    background-color: #191919; 
+    color: #FFFFFF; 
+    padding: 50px 0;
+}
+
+.comments-section .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comments-section .title-description {
+    max-width: 50%; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.comments-section .carousel-container {
+    position: relative;
+    width: 100%;
+}
+
+.comments-section .comments-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.comments-section .pagination-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.comments-section .dots-container {
+    text-align: left; 
+}
+
+.comments-section .arrows-container {
+    text-align: right; 
+}
+
+.comments-section .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #256D72;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.comments-section .dot.active {
+    background-color: #39C2B6;
+}
+
+.comments-section .arrow {
+    cursor: pointer;
+    font-size: 24px;
+    color: #256D72; 
+    user-select: none;
+}
+
+.comments-section .arrow:hover {
+    color: #39C2B6;
+}
+
+
+
+.comments-section .comments-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden; 
+    width: 100%;
+}
+
+.comments-section .comment-box {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.comments-section .carousel-container {
+    width: 100%; 
+}
+
+.comments-section .comments-container {
+    transform: translateX(0%); 
+    transition: transform 0.5s ease-in-out; 
+}
