@@ -344,7 +344,7 @@ footer{
 
 .footer-content li {
     text-decoration: none;
-    margin: 10px 0 10px 0;
+    margin-bottom: 30px;
 }
 
 .footer-content a {
