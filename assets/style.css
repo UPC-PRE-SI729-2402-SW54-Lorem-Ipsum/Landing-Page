@@ -1,0 +1,139 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    color: #fff;
+    font: 600 20px Poppins, sans-serif;
+}
+
+.logo {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 49px;
+}
+
+.brand-name {
+    opacity: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191919;
+    padding: 10px 10px;
+    height : 50px;
+}
+.nav-options a {
+    color: #F9EAAD;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.btn-nav {
+    color: #F9EAAD;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #191919;
+    border: 1px solid #EF514F;
+    border-radius: 10px;
+}
+.btn-primary-nav {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #EF514F;
+    border: 3px solid #EF514F;
+    border-radius: 10px;
+}
+.btn-nav:hover, .btn-primary-nav:hover, a:hover {
+    opacity: 0.8;
+}
+
+.main-container{
+    display: flex;
+    background: #191919;
+}
+
+.main-description-container
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 17px 0 17px 0;
+    padding: 45px 59px 72px;
+    height: auto;
+}
+
+.main-description-subtitle
+{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 121.2%;
+
+    color: #39C2B6;
+}
+
+.main-description-title {
+    margin: 0 0 0 0;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #F9EAAD;
+}
+
+.main-description-text
+{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.main-image
+{
+    border-radius: 50px 0px 0px 0px;
+}
+
+.btn-cta-container
+{
+    text-decoration: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #EF514F;
+    border: 3px solid #EF514F;
+    border-radius: 10px;
+    color: #F9EAAD;
+}
+.btn-2-cta-container
+{
+    text-decoration: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #191919;
+    border: 1px solid #EF514F;
+    border-radius: 10px;
+    color: #F9EAAD;
+}
+.btn-cta-container:hover, .btn-2-cta-container:hover, a:hover {
+    opacity: 0.8;
+}
