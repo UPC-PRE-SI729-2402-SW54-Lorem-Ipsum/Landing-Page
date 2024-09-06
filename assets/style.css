@@ -65,6 +65,9 @@ body, html {
     opacity: 0.8;
 }
 
+
+/* main section */
+
 .main-container{
     display: flex;
     background: #191919;
@@ -140,6 +143,9 @@ body, html {
 .btn-cta-container:hover, .btn-2-cta-container:hover, a:hover {
     opacity: 0.8;
 }
+
+
+/* benefits section */
 
 .Benefits-container
 {
@@ -231,4 +237,73 @@ body, html {
     object-fit: cover;
     object-position: center;
     border-radius: 0 50px 50px 0;
+}
+
+/* commentary section */
+
+.commentary-container
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* team section */
+
+.team-section{
+    margin: 7em 0;
+}
+
+.team-section-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.team-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.team-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0
+}
+.member-info{
+    padding: 0 20px;
+}
+.team-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    scale: 1.05;
+}
+
+@media screen and (max-width: 600px) {
+    .team-card {
+        width: 100%;
+    }
+}
+
+/* video section */
+
+.video-container
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
